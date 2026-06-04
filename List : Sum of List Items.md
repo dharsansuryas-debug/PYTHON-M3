@@ -1,26 +1,22 @@
-# Tuple in Python: Check Element Existence
+# List Operations in Python: Sum of List Items
 
 ## 🎯 Aim
-To write a Python program that checks if the element `'n'` and the element `8` exist within a given tuple.
+To write a Python program that calculates the **sum of all elements** in a list.
 
 ## 🧠 Algorithm
-1. Define a tuple `x` with some letters and numbers.
-2. Use the `in` operator to check if the string `'n'` exists within the tuple.
-3. Use the `in` operator to check if the integer `8` exists within the tuple.
-4. Print the results.
+1. Define a list of numbers.
+2. Use Python’s built-in `sum()` function to calculate the total.
+3. Print the result.
 
 ## 🧾 Program
-
-```python
-a=eval(input())
-print("n" not in a)
-print("8" in a)
+```
+L=[153,147,124,102] 
+print(sum(L))
 ```
 
 ## Output
+<img width="542" height="205" alt="image" src="https://github.com/user-attachments/assets/4076febc-2d75-4aa2-9c84-93e95dc75b2e" />
 
-<img width="740" height="190" alt="image" src="https://github.com/user-attachments/assets/1eada1ee-053f-4216-a425-1b9d6fb64d8c" />
 
 ## Result
-
-Thus the given program is verified and executed sucessfully
+Thus, the program has been successfully executed.
